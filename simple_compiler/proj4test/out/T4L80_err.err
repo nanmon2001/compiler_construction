@@ -1,0 +1,17 @@
+line 58: ERROR -- type mismatch in pointer conversion
+line 59: ERROR -- left side of assignment is not an l-value
+line 60: ERROR -- indirection on nonpointer type
+line 61: ERROR -- type mismatch in pointer conversion
+line 62: ERROR -- left side of assignment is not an l-value
+line 63: ERROR -- illegal unary operation on constant operand
+line 64: ERROR -- address operator requires function designator or l-value
+line 65: ERROR -- indirection on nonpointer type
+line 66: ERROR -- type mismatch in pointer operation
+line 67: ERROR -- type mismatch in pointer conversion
+line 68: ERROR -- illegal pointer operation
+line 69: ERROR -- illegal pointer operation
+line 70: ERROR -- type mismatch in pointer conversion
+line 71: ERROR -- type mismatch in pointer conversion
+line 72: ERROR -- expression not of function type
+line 73: ERROR -- type mismatch in pointer conversion
+line 74: ERROR -- indirection on nonpointer type

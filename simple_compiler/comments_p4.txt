@@ -1,0 +1,93 @@
+Comments for self-test -------- Tue Apr 23, 2019 at 9:39:15 EDT
+No illegal files found
+
+Testing compilation with pcc3:
+  Attempting to build pcc3 ... ok
+
+
+LEVEL 80:
+
+Running pcc3 with input T4L80_ok.c ... zero termination status
+  T4L80_ok.s exists ... will assemble and run later
+Running pcc3 with input T4L80_err.c ... zero termination status
+  T4L80_err.err exists
+  Comparing with solution file ... files match
+
+
+LEVEL 90:
+
+Running pcc3 with input T4L90_ok.c ... zero termination status
+  T4L90_ok.s exists ... will assemble and run later
+Running pcc3 with input T4L90_err.c ... zero termination status
+  T4L90_err.err exists
+  Comparing with solution file ... files match
+
+
+LEVEL 100:
+
+Running pcc3 with input T4L100_ok.c ... zero termination status
+  T4L100_ok.s exists ... will assemble and run later
+Running pcc3 with input T4L100_err.c ... zero termination status
+  T4L100_err.err exists
+  Comparing with solution file ... files match
+######################################################
+Compilation summary for self-test:
+  T4L100_err:  error message(s) (will check appropriateness by hand)
+  T4L100_ok:  ok
+  T4L80_err:  error message(s) (will check appropriateness by hand)
+  T4L80_ok:  ok
+  T4L90_err:  error message(s) (will check appropriateness by hand)
+  T4L90_ok:  ok
+  pcc3:  ok
+######################################################
+
+Testing execution with pcc3:
+
+
+LEVEL 80:
+
+Trying to assemble T4L80_ok.s with gcc and lib80 ...  succeeded
+Executable a.out exists
+./a.out > T4L80_ok.out 2> T4L80_ok_exec.err terminated abnormally
+  Standard error output:
+vvvvv
+
+^^^^^
+  T4L80_ok.out exists -- comparing with solution output file
+ files match
+
+
+LEVEL 90:
+
+Trying to assemble T4L90_ok.s with gcc and lib90 ...  succeeded
+Executable a.out exists
+./a.out > T4L90_ok.out 2> T4L90_ok_exec.err terminated abnormally
+  Standard error output:
+vvvvv
+
+^^^^^
+  T4L90_ok.out exists -- comparing with solution output file
+ files match
+
+
+LEVEL 100:
+
+Trying to assemble T4L100_ok.s with gcc and lib100 ...  succeeded
+Executable a.out exists
+./a.out > T4L100_ok.out 2> T4L100_ok_exec.err terminated abnormally
+  Standard error output:
+vvvvv
+
+^^^^^
+  T4L100_ok.out exists -- comparing with solution output file
+ files match
+######################################################
+Assembly/execution summary for self-test:
+  T4L100:  ok
+  T4L80:  ok
+  T4L90:  ok
+  pcc3:  ok
+######################################################
+ 80% level: (supplied by hand)
+ 90% level: (supplied by hand)
+100% level: (supplied by hand)

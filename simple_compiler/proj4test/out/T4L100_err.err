@@ -1,0 +1,2 @@
+line 33: ERROR -- arithmetic on function pointers not allowed
+line 34: ERROR -- expression not of function type

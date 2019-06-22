@@ -1,0 +1,11 @@
+line 99: ERROR -- noninteger added to pointer
+line 100: ERROR -- left side of assignment is not an l-value
+line 101: ERROR -- illegal pointer operation
+line 102: ERROR -- left side of assignment is not an l-value
+line 103: ERROR -- indirection on nonpointer type
+line 104: ERROR -- indirection on nonpointer type
+line 105: ERROR -- type mismatch in pointer subtraction
+line 106: ERROR -- noninteger added to pointer
+line 107: ERROR -- pointer subtracted from nonpointer
+line 108: ERROR -- arithmetic on function pointers not allowed
+line 109: ERROR -- expression not of function type
